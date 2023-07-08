@@ -2,6 +2,12 @@
      background-color:  #0f0e0e;  
 } 
 
+#nav_bar {
+    height: 90px;
+    width: 100%;
+    background-color: gray;
+}
+
 #head {
     color: #95E7D3;
     font-size: 400%; 
@@ -85,7 +91,6 @@
 #expense_list {
     font-size: 80%;  
     word-spacing: 240px;
-    
 }
 
 #expense_list li {
