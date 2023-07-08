@@ -1,6 +1,4 @@
- body { 
-     background-color:  #0f0e0e;  
-} 
+
 
 /* #nav_bar {
     height: 90px;
@@ -9,11 +7,20 @@
     top: 0;
 } */
 
+#bg {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    zoom: 30%;
+    filter: blur(25px);
+}
+
 #head {
     color: #95E7D3;
-    font-size: 400%; 
-    padding-left: 45%;
-    z-index: auto;
+    font-size: 400%;
+    top: 0%; 
+    left: 40%;
+    position: fixed;
 }
 #budget_form {
     display: flex;
@@ -22,14 +29,22 @@
     /*padding-bottom: 1%;
     padding-right: 30%;*/
     width:25%;
-    margin-left: 40%;
+    justify-content: center;
+    text-align: center;
+    left: 38%;
+    position: fixed;
+    top: 15%;
+}
+
+form{
+    width: 100%;
 }
 
 #budget_form input{ 
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 1%;
+    margin: 3%;
     vertical-align: middle;
     
 }
@@ -54,7 +69,8 @@
     height: 60px;
     width: 75%;
     background-color: #95E7D3; 
-    border-radius: 10px;  
+    border-radius: 10px;
+    margin-left: -25px;  
 }
 
 #side_bar{
@@ -68,6 +84,7 @@
     overflow-x: hidden;
     padding-top: 20px;
     text-align: center;
+    opacity: 0.7;
 }
 
 .delete-btn {
@@ -88,6 +105,7 @@
     justify-content: left;
     background: #0f0e0e;
     width: 30%;
+    opacity: 0.9;
 }
 
 #expense_list {
