@@ -103,11 +103,13 @@
     height: 25%;
     width: 50%;
     border-radius: 50%;
+    border: 3px solid red;
 }
 
-/* #greetings{ */
-    /* size: 800%; */
-/* } */
+#greetings{ 
+    font-size: 250%;
+    color:cyan
+} 
 
 
 
