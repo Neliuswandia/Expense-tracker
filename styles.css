@@ -2,25 +2,27 @@
      background-color:  #0f0e0e;  
 } 
 
-#nav_bar {
+/* #nav_bar {
     height: 90px;
     width: 100%;
     background-color: gray;
-}
+    top: 0;
+} */
 
 #head {
     color: #95E7D3;
     font-size: 400%; 
-    padding-left: 27%;
+    padding-left: 45%;
     z-index: auto;
 }
 #budget_form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-bottom: 1%;
-    padding-right: 30%;
+    /*padding-bottom: 1%;
+    padding-right: 30%;*/
+    width:25%;
+    margin-left: 40%;
 }
 
 #budget_form input{ 
@@ -38,32 +40,19 @@
     
 }
 
-#expense {
+#expense,#amount{
     border-radius: 20px;
     height: 60px;
-    width: 18%;
+    width: 90%;
     background-color: gray;
     border-color: aqua;
 }
 
-#amount {
-    border-radius: 20px;
-    height: 60px;
-    width: 18%;
-    background-color: gray;
-    border-color: #95E7D3;
-}
 
-#expenses {
-    color: #95E7D3;
-    font-size: 330%;
-    padding-left: 50%;
-    padding-bottom: 10%;
-}
 
 #btn {
     height: 60px;
-    width: 10%;
+    width: 90%;
     background-color: #95E7D3; 
     border-radius: 10px;  
 }
@@ -88,15 +77,37 @@
     border-radius: 10px;   
 }
 
+#expenses {
+    color: #95E7D3;
+    /*font-size: 330%;
+    padding-left: 50%;
+    padding-bottom: 10%;*/
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    justify-content: left;
+    background: #0f0e0e;
+    width: 30%;
+}
+
 #expense_list {
-    font-size: 80%;  
-    word-spacing: 240px;
+    font-size: 160%;
+    word-spacing: 100px;
+    width: 100%;
+    left: 0px;
+    padding-left: 0%;
 }
 
 #expense_list li {
     border-style:solid;
     border-color: #0f0e0e;
     background: rgb(68, 64, 64); 
+    width: 100%;
+    margin-top: 5px;
+}
+
+#expenses p{
+    font-size: 300%;
 }
 
 #image {
@@ -124,16 +135,20 @@
     height:58%;
     padding-left: 0%;
     text-align: center;
+    color: white;
 }
 
 #side_buttons li{
-    height: 13%;
+    height: 10%;
     width: 100%;
     margin-top: 2%;
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
     text-decoration: dotted;
     border-bottom: 2px solid cyan;
+    cursor:default;
+    text-align: left;
+    
 }
 
 
