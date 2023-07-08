@@ -1,0 +1,19 @@
+{
+  "expenses": [
+    {
+      "description": "Fees",
+      "amount": "20000",
+      "id": 2
+    },
+    {
+      "description": "fees",
+      "amount": "345245",
+      "id": 3
+    },
+    {
+        "description": "fun",
+        "amount": "10000",
+        "id": 4
+      }
+  ]
+}
