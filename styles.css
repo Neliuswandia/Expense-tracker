@@ -7,6 +7,7 @@
     font-size: 400%; 
     padding-left: 42%;
     z-index: auto;
+    padding-right: 25%;
 }
 #budget_form {
     display: flex;
@@ -14,6 +15,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 1%;
+    padding-right: 30%;
 }
 
 #budget_form input{ 
@@ -50,7 +52,7 @@
 #expenses {
     color: #95E7D3;
     font-size: 330%;
-    padding-left: 30%;
+    padding-left: 70%;
 }
 
 #btn {
@@ -115,13 +117,18 @@
     left:0;
     width: 100%;
     height:58%;
-    background: pink;
+    padding-left: 0%;
+    text-align: center;
 }
 
 #side_buttons li{
-    height: 14%;
-    width: 90%;
-    background: red;
+    height: 13%;
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 300%;
+    text-decoration: dotted;
+    border-bottom: 2px solid cyan;
 }
 
 
