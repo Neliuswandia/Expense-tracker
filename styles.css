@@ -5,9 +5,8 @@
 #head {
     color: #95E7D3;
     font-size: 400%; 
-    padding-left: 42%;
+    padding-left: 27%;
     z-index: auto;
-    padding-right: 25%;
 }
 #budget_form {
     display: flex;
@@ -52,7 +51,8 @@
 #expenses {
     color: #95E7D3;
     font-size: 330%;
-    padding-left: 70%;
+    padding-left: 50%;
+    padding-bottom: 10%;
 }
 
 #btn {
@@ -105,7 +105,7 @@
     height: 25%;
     width: 50%;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 3px solid #95E7D3;
 }
 
 #greetings{ 
@@ -130,8 +130,6 @@
     text-decoration: dotted;
     border-bottom: 2px solid cyan;
 }
-
-
 
 
 
